@@ -1,0 +1,48 @@
+package br.com.bytebank.banco.test.util;
+
+import java.util.LinkedList;
+
+import br.com.bytebank.banco.modelo.Conta;
+import br.com.bytebank.banco.modelo.ContaCorrente;
+
+public class TesteArrayList2 {
+
+	public static void main(String[] args) {
+		
+		
+		// Generics
+		// ArrayList
+		
+		
+		// Explicitando os types
+		LinkedList<Conta> lista = new LinkedList(); // o <Contaa> restringe a lista apenas para contas, sem isso aceitava qualquer objeto
+		
+		Conta cc = new ContaCorrente(22, 12312);
+		lista.add(cc);
+		
+		System.out.println(lista.size());
+		
+		Conta ref = (Conta) lista.get(0); // pode tirar o casting (Conta)
+		
+		lista.remove(0);
+		lista.add(cc);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		for(Object oRef : lista) {  // da para trocar por Conta
+			System.out.println(oRef);
+		}
+
+	}
+
+}

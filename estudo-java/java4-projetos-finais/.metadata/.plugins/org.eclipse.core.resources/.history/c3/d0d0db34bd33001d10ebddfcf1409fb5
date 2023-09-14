@@ -1,0 +1,20 @@
+package br.com.bytebank.banco.test.util;
+
+public class TesteInteger {
+
+	public static void main(String[] args) {
+		
+		
+		// converter string para numero:
+		
+		String s = args[0]; // vem da execução do código
+		
+		Integer numero = Integer.valueOf(s);
+		// ou
+		
+		int numero2 = Integer.parseInt(s);
+		
+
+	}
+
+}
