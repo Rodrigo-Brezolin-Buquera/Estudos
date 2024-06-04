@@ -1,0 +1,15 @@
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/bin/Debug/net8.0/app
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/bin/Debug/net8.0/app.deps.json
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/bin/Debug/net8.0/app.runtimeconfig.json
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/bin/Debug/net8.0/app.dll
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/bin/Debug/net8.0/app.pdb
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.AssemblyInfoInputs.cache
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.AssemblyInfo.cs
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.csproj.CoreCompileInputs.cache
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.sourcelink.json
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.dll
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/refint/app.dll
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.pdb
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/app.genruntimeconfig.cache
+/Users/rodrigobrezolin/Documents/Estudos/C#/app/obj/Debug/net8.0/ref/app.dll
