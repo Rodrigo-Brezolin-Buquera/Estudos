@@ -1,0 +1,15 @@
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/bin/Debug/net8.0/PTI_algoritmos2
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/bin/Debug/net8.0/PTI_algoritmos2.deps.json
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/bin/Debug/net8.0/PTI_algoritmos2.runtimeconfig.json
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/bin/Debug/net8.0/PTI_algoritmos2.dll
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/bin/Debug/net8.0/PTI_algoritmos2.pdb
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.AssemblyInfoInputs.cache
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.AssemblyInfo.cs
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.csproj.CoreCompileInputs.cache
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.sourcelink.json
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.dll
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/refint/PTI_algoritmos2.dll
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.pdb
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/PTI_algoritmos2.genruntimeconfig.cache
+/Users/rodrigobrezolin/Documents/Estudos/C#/PTI_algoritmos2/obj/Debug/net8.0/ref/PTI_algoritmos2.dll
