@@ -2,10 +2,37 @@
 
 class Program
 {
+    static List<Book> stock = new List<Book>();
     static void Main(string[] args)
     {
         Console.WriteLine("Bem vindo ao nosso sistema de estoque, escolha uma das opções abaixo");
+
         int option = showMenu();
+        switch (option)
+        {
+            case 1:
+                addProduct();
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+
+                break;
+            case 0:
+                Console.WriteLine("Obrigado por utilizar nossos serviços. Até uma próxima vez");
+                break;
+            default:
+                Console.WriteLine("Obrigado por utilizar nossos serviços. Até uma próxima vez");
+                break;
+        }
+
     }
 
     static int showMenu()
@@ -31,7 +58,24 @@ class Program
         return option;
     }
 
-    static void addProduct() { }
+    static void addProduct()
+    {
+        Console.WriteLine("Informe o nome do livro");
+        string name = Console.ReadLine();
+
+        Console.WriteLine("Informe o nome o preço ");
+        string price = "R$ " + Console.ReadLine();
+
+        Console.WriteLine("Informe o autor(a)");
+        string author = Console.ReadLine();
+
+        Console.WriteLine("Informe o gênero");
+        string genre = Console.ReadLine();
+
+        Book newBook = new Book(name, author, price, genre);
+        stock.Add(newBook);
+        stock.l
+    }
 
     static void showProducts() { }
 
@@ -43,11 +87,11 @@ class Program
     {
         string name;
         string author;
-        double price;
-        string genre;      
+        string price;
+        string genre;
         int quantity;
 
-        public Book(string n, string a, double p, string g)
+        public Book(string n, string a, string p, string g)
         {
             name = n;
             author = a;
@@ -64,6 +108,11 @@ class Program
         public void removeQuantity(int value)
         {
 
+        }
+
+        public string showBook()
+        {
+            return $"Nome: {name}, Autor: {author}, Preço: {price}, Gênero: {genre}, Quantidade: {quantity}"  
         }
 
     }
