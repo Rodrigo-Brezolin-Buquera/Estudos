@@ -12,23 +12,23 @@ class Program
         while (showingMenu)
         {
 
-            int option = showMenu();
+            int option = ShowMenu();
             switch (option)
             {
                 case 1:
-                    addProduct();
+                    AddProduct();
                     break;
                 case 2:
-                    showProducts();
+                    ShowProducts();
                     break;
                 case 3:
-                    removeProduct();
+                    RemoveProduct();
                     break;
                 case 4:
-                    addQuantity();
+                    AddQuantity();
                     break;
                 case 5:
-                    removeQuantity();
+                    RemoveQuantity();
                     break;
                 case 0:
                     Console.WriteLine("Obrigado por utilizar nossos serviços. Até uma próxima vez!");
@@ -43,7 +43,7 @@ class Program
 
     }
 
-    static int showMenu()
+    static int ShowMenu()
     {
         bool validOption = false;
         int option = -1;
@@ -66,7 +66,7 @@ class Program
         return option;
     }
 
-    static void addProduct()
+    static void AddProduct()
     {
         Console.WriteLine("Informe o nome do livro");
         string name = Console.ReadLine();
@@ -87,7 +87,7 @@ class Program
 
     }
 
-    static void showProducts()
+    static void ShowProducts()
     {
         if (stock.Count == 0)
         {
@@ -105,7 +105,7 @@ class Program
 
     }
 
-    static int findBook()
+    static int FindBook()
     {
         Console.WriteLine("Informe a posição do livro a ser removido");
         int index = int.Parse(Console.ReadLine()) - 1;
@@ -121,9 +121,9 @@ class Program
         }
     }
 
-    static void removeProduct()
+    static void RemoveProduct()
     {
-        int index = findBook();
+        int index = FindBook();
 
         if (index != -1)
         {
@@ -132,26 +132,26 @@ class Program
         }
     }
 
-    static void addQuantity()
+    static void AddQuantity()
     {
-        int index = findBook();
+        int index = FindBook();
         if (index != -1)
         {
             Console.WriteLine("Informe a quantidade de entrada");
             int quantity = int.Parse(Console.ReadLine());
-            stock[index].addQuantity(quantity);
+            stock[index].AddQuantity(quantity);
         }
 
     }
 
-    static void removeQuantity()
+    static void RemoveQuantity()
     {
-        int index = findBook();
+        int index = FindBook();
         if (index != -1)
         {
             Console.WriteLine("Informe a quantidade de saída");
             int quantity = int.Parse(Console.ReadLine());
-            stock[index].removeQuantity(quantity);
+            stock[index].RemoveQuantity(quantity);
         }
     }
 
@@ -172,12 +172,12 @@ class Program
             quantity = 0;
         }
 
-        public void addQuantity(int value)
+        public void AddQuantity(int value)
         {
             quantity = quantity + value;
         }
 
-        public void removeQuantity(int value)
+        public void RemoveQuantity(int value)
         {
             quantity = quantity - value;
         }

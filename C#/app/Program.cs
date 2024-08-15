@@ -224,23 +224,114 @@
 
 // 8. Calculo IMC
 
+// class Program
+// {
+//     static void Main()
+//     {
+//         Console.WriteLine("Entre com o seu peso  ");
+//         float peso = float.Parse(Console.ReadLine()!);
+
+//         Console.WriteLine("Entre com o seu altura  ");
+//         float altura = float.Parse(Console.ReadLine()!);
+
+//         Console.WriteLine("Você é M ou F  ");
+//         string genero = Console.ReadLine()!;
+
+//         float imc = peso / (altura * altura);
+//         Console.WriteLine($"Seu IMC é: {imc:F1}");
+
+
+
+//     }
+// }
+
+// class Program
+// {
+//     static void Main()
+//     {
+
+
+// int total;
+
+
+
+// total = 5 + 4 * 18 / 3 * 3 % 3 - 1;
+
+
+
+// Console.WriteLine(total);
+
+
+//  }
+
+
+
+// }
+
+
+
+// Questões prova
+
+// 1. ler 10 numeros e imprimir a lista de todos
+// 2.let 10 numeros, indicar o maior e o menor
+
 class Program
 {
-    static void Main()
+ //1.
+    // static void Main()
+    // {
+    //     int maior = int.MinValue;
+    //     int menor = int.MaxValue;
+    //     Console.WriteLine("Entre com 10 valores");
+    //     for(int i =0; i<10; i++){
+        
+    //        int valor = int.Parse(Console.ReadLine()!);
+
+    //        if ( valor > maior) maior = valor;
+    //        if (valor < menor) menor = valor;
+    //     }
+
+    //     Console.WriteLine("Maior: " + maior );
+    //     Console.WriteLine("Menor: " + menor );
+
+    // }
+
+
+//2. 
+  // static void Main()
+  //   {
+  //       string resposta = "";
+        
+  //       Console.WriteLine("Entre com 10 valores");
+  //       for(int i =0; i<10; i++){
+        
+  //          string valor = Console.ReadLine()!;
+
+  //          resposta = resposta + valor + " "; 
+
+  //       }
+
+  //       Console.WriteLine("final: " + resposta);
+     
+
+  //   }
+
+
+
+// Vetores
+
+
+  static void Main()
     {
-        Console.WriteLine("Entre com o seu peso  ");
-        float peso = float.Parse(Console.ReadLine()!);
+      int[] notas = [8, 7];
+      Console.WriteLine(notas[1]);
 
-        Console.WriteLine("Entre com o seu altura  ");
-        float altura = float.Parse(Console.ReadLine()!);
+      double[] valores = new double[3];
 
-        Console.WriteLine("Você é M ou F  ");
-        string genero = Console.ReadLine()!;
+      // matrizes
 
-        float imc = peso / (altura * altura);
-        Console.WriteLine($"Seu IMC é: {imc:F1}");
-
-
+      double[,] matriz = new double[4,3];
 
     }
+
 }
