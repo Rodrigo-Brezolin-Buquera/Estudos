@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PTI_algoritmos2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6248628d4baf39c4bd55f8aee02301c2cc8a51ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61a9f98d58c7b0ea9f13b4713da902fd9b1344f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PTI_algoritmos2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PTI_algoritmos2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

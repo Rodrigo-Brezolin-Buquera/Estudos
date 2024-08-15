@@ -17,13 +17,13 @@ class Program
                 showProducts();
                 break;
             case 3:
-
+                removeProduct();
                 break;
             case 4:
-
+                addQuantity();
                 break;
             case 5:
-
+                removeQuantity();
                 break;
             case 0:
                 Console.WriteLine("Obrigado por utilizar nossos serviços. Até uma próxima vez");
@@ -74,23 +74,58 @@ class Program
 
         Book newBook = new Book(name, author, price, genre);
         stock.Add(newBook);
-        
+
     }
 
-    static void showProducts() 
-    { 
-      
-       for (int i = 0; i < stock.Count; i++)
+    static void showProducts()
+    {
+
+        for (int i = 0; i < stock.Count; i++)
         {
-                Book book = stock[i];
-                Console.WriteLine($"{i+1}. {book}");
+            Book book = stock[i];
+            Console.WriteLine($"{i + 1}. {book}");
         }
 
     }
 
-    static void removeProduct() { }
+    static void removeProduct()
+    {
+        Console.WriteLine("Informe a posição do livro a ser removido");
+        int index = int.Parse(Console.ReadLine()) - 1;
 
-    static void changeQuantity() { }
+        if (index >= 0 && index < stock.Count)
+        {
+            stock.RemoveAt(index);
+            Console.WriteLine("Livro removido com sucesso.");
+        }
+        else
+        {
+            Console.WriteLine("Livro não encontrado");
+        }
+
+    }
+
+    static void addQuantity()
+    {
+        Console.WriteLine("Informe a posição do livro");
+        int index = int.Parse(Console.ReadLine()) - 1;
+
+        Console.WriteLine("Informe a quantidade de entrada");
+        int quantity = int.Parse(Console.ReadLine());
+
+        stock[index].addQuantity(quantity);
+    }
+
+    static void removeQuantity()
+    {
+        Console.WriteLine("Informe a posição do livro");
+        int index = int.Parse(Console.ReadLine()) - 1;
+
+        Console.WriteLine("Informe a quantidade de saída");
+        int quantity = int.Parse(Console.ReadLine());
+
+        stock[index].removeQuantity(quantity);
+    }
 
     public class Book
     {
@@ -111,17 +146,17 @@ class Program
 
         public void addQuantity(int value)
         {
-            // quantity = quantity + value;
+            quantity = quantity + value;
         }
 
         public void removeQuantity(int value)
         {
-        //    quantity = quantity - value;
+            quantity = quantity - value;
         }
 
         public override string ToString()
         {
-            return $"Nome: {name}, Autor: {author}, Preço: {price}, Gênero: {genre}, Quantidade: {quantity}" ; 
+            return $"Nome: {name}, Autor: {author}, Preço: {price}, Gênero: {genre}, Quantidade: {quantity}";
         }
 
     }
