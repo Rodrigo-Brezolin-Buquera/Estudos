@@ -14,7 +14,7 @@ class Program
                 addProduct();
                 break;
             case 2:
-
+                showProducts();
                 break;
             case 3:
 
@@ -74,10 +74,19 @@ class Program
 
         Book newBook = new Book(name, author, price, genre);
         stock.Add(newBook);
-        stock.l
+        
     }
 
-    static void showProducts() { }
+    static void showProducts() 
+    { 
+      
+       for (int i = 0; i < stock.Count; i++)
+        {
+                Book book = stock[i];
+                Console.WriteLine($"{i+1}. {book}");
+        }
+
+    }
 
     static void removeProduct() { }
 
@@ -102,17 +111,17 @@ class Program
 
         public void addQuantity(int value)
         {
-
+            // quantity = quantity + value;
         }
 
         public void removeQuantity(int value)
         {
-
+        //    quantity = quantity - value;
         }
 
-        public string showBook()
+        public override string ToString()
         {
-            return $"Nome: {name}, Autor: {author}, Preço: {price}, Gênero: {genre}, Quantidade: {quantity}"  
+            return $"Nome: {name}, Autor: {author}, Preço: {price}, Gênero: {genre}, Quantidade: {quantity}" ; 
         }
 
     }
