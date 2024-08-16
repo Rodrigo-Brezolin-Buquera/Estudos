@@ -1,33 +1,33 @@
- public class Book
+public class Book
+{
+    string Name;
+    string Author;
+    string Price;
+    string Genre;
+    int Quantity;
+
+    public Book(string n, string a, string p, string g)
     {
-        string name;
-        string author;
-        string price;
-        string genre;
-        int quantity;
-
-        public Book(string n, string a, string p, string g)
-        {
-            name = n;
-            author = a;
-            price = p;
-            genre = g;
-            quantity = 0;
-        }
-
-        public void AddQuantity(int value)
-        {
-            quantity = quantity + value;
-        }
-
-        public void RemoveQuantity(int value)
-        {
-            quantity = quantity - value;
-        }
-
-        public override string ToString()
-        {
-            return $"{name} ({price}) - {quantity} no estoque";
-        }
-
+        Name = n;
+        Author = a;
+        Price = p;
+        Genre = g;
+        Quantity = 0;
     }
+
+    public void AddQuantity(int value)
+    {
+        Quantity = Quantity + value;
+    }
+
+    public void RemoveQuantity(int value)
+    {
+        Quantity = Quantity - value;
+    }
+
+    public override string ToString()
+    {
+        return $"{Name} ({Price}) - {Quantity} no estoque";
+    }
+
+}
