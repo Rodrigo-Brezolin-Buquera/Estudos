@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("app")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PTI_algoritmos2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c1c46bf6503ddbf403b5bb2b5052c470bb8cde4")]
-[assembly: System.Reflection.AssemblyProductAttribute("app")]
-[assembly: System.Reflection.AssemblyTitleAttribute("app")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7d87f1866b536c63ebaf1c1089b2714cd55a29a")]
+[assembly: System.Reflection.AssemblyProductAttribute("PTI_algoritmos2")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PTI_algoritmos2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
